@@ -1,0 +1,35 @@
+@import "~bootstrap/scss/bootstrap";
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #D3D0CB;
+$pallete1: #2E5266;
+$pallete2: #6E8898;
+$pallete3: #9FB1BC;
+$pallete4: #E2C044;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $pallete1;
+}
+
+nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  
+    li { display: inline-block; }
+  
+    a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+    }
+  }
+
+  $theme-colors: (
+    "info": tomato,
+    "danger": teal
+);
